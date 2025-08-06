@@ -1,4 +1,4 @@
-import collectionImage from '/images/collection.png?url'
+import collectionImage from '../collection.png?url'
 
 const Download = () => {
   return (

@@ -1,4 +1,4 @@
-import timerImage from '/images/timer.PNG?url'
+import timerImage from '../timer.PNG?url'
 
 const Hero = () => {
   const scrollToDownload = () => {

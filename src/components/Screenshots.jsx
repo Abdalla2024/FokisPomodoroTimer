@@ -1,6 +1,6 @@
-import tasksImage from '/images/tasks.PNG?url'
-import addImage from '/images/add.PNG?url'
-import analyticsImage from '/images/analytics.PNG?url'
+import tasksImage from '../tasks.PNG?url'
+import addImage from '../add.PNG?url'
+import analyticsImage from '../analytics.PNG?url'
 
 const Screenshots = () => {
   const screenshots = [
