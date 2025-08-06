@@ -34,7 +34,7 @@ const Header = ({ currentPath }) => {
           <div className="nav-logo-icon">
             <span>🐦</span>
           </div>
-          <h2>PomodoroBird</h2>
+          <h2>Fokis</h2>
         </Link>
         
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
