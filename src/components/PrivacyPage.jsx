@@ -17,10 +17,10 @@ const PrivacyPage = () => {
           <section className="privacy-section">
             <h2>Introduction</h2>
             <p>
-              Welcome to PomodoroBird ("we," "our," or "us"). We are committed to
+              Welcome to Fokis ("we," "our," or "us"). We are committed to
               protecting your privacy and ensuring the security of your personal
               information. This Privacy Policy explains how we collect, use, store,
-              and protect your information when you use our PomodoroBird productivity
+              and protect your information when you use our Fokis productivity
               application ("App") on iOS devices.
             </p>
             <p>
@@ -69,7 +69,7 @@ const PrivacyPage = () => {
             <ul>
               <li>
                 <strong>App Functionality:</strong> To provide and maintain the
-                PomodoroBird app features, including timer functionality, task
+                Fokis app features, including timer functionality, task
                 management, and bird collection system
               </li>
               <li>
@@ -153,7 +153,7 @@ const PrivacyPage = () => {
           <section className="privacy-section">
             <h2>Children's Privacy</h2>
             <p>
-              PomodoroBird is not intended for use by children under the age of 13.
+              Fokis is not intended for use by children under the age of 13.
               We do not knowingly collect personal information from children under 13.
               If you are a parent or guardian and believe your child has provided
               us with personal information, please contact us immediately.

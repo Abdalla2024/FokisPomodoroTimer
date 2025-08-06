@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import pomodoroIcon from '/images/pomodoroicon.png?url'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -11,7 +12,7 @@ const Footer = () => {
           <div>
             <div className="footer-brand">
               <div className="footer-brand-icon">
-                <span>🐦</span>
+                <img src={pomodoroIcon} alt="Fokis Icon" style={{ width: '24px', height: '24px', borderRadius: '6px' }} />
               </div>
               <h3>Fokis</h3>
             </div>

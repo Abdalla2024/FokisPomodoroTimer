@@ -17,9 +17,9 @@ const TermsPage = () => {
           <section className="privacy-section">
             <h2>Acceptance of Terms</h2>
             <p>
-              By downloading, installing, or using PomodoroBird ("App"), you agree to be bound by these Terms of Service ("Terms"). 
+              By downloading, installing, or using Fokis ("App"), you agree to be bound by these Terms of Service ("Terms"). 
               If you do not agree to these Terms, please do not use our App. These Terms constitute a legally binding agreement 
-              between you and PomodoroBird.
+              between you and Fokis.
             </p>
           </section>
 
@@ -30,7 +30,7 @@ const TermsPage = () => {
               revocable license to:
             </p>
             <ul>
-              <li>Download and install PomodoroBird on your personal iOS devices</li>
+              <li>Download and install Fokis on your personal iOS devices</li>
               <li>Use the App for personal, non-commercial purposes</li>
               <li>Create and manage your tasks and focus sessions</li>
               <li>Access the bird collection and gamification features</li>
@@ -71,7 +71,7 @@ const TermsPage = () => {
           <section className="privacy-section">
             <h2>Service Availability</h2>
             <p>
-              While we strive to provide consistent and reliable service, we cannot guarantee that PomodoroBird will be 
+              While we strive to provide consistent and reliable service, we cannot guarantee that Fokis will be 
               available at all times. We may need to suspend or discontinue service for:
             </p>
             <ul>
@@ -88,7 +88,7 @@ const TermsPage = () => {
           <section className="privacy-section">
             <h2>Updates and Changes</h2>
             <p>
-              We may update PomodoroBird and these Terms from time to time to improve functionality, add features, 
+              We may update Fokis and these Terms from time to time to improve functionality, add features, 
               or address legal requirements. We will notify you of significant changes by:
             </p>
             <ul>
@@ -104,7 +104,7 @@ const TermsPage = () => {
           <section className="privacy-section">
             <h2>Intellectual Property</h2>
             <p>
-              PomodoroBird and all its content, including but not limited to text, graphics, images, logos, 
+              Fokis and all its content, including but not limited to text, graphics, images, logos, 
               software, and design elements, are owned by us and protected by intellectual property laws. 
               You may not:
             </p>
@@ -119,7 +119,7 @@ const TermsPage = () => {
           <section className="privacy-section">
             <h2>Limitation of Liability</h2>
             <p>
-              PomodoroBird is provided "as is" without warranties of any kind, either express or implied. 
+              Fokis is provided "as is" without warranties of any kind, either express or implied. 
               We are not liable for any damages arising from your use of the App, including but not limited to:
             </p>
             <ul>
@@ -136,7 +136,7 @@ const TermsPage = () => {
           <section className="privacy-section">
             <h2>Termination</h2>
             <p>
-              We may terminate or suspend your access to PomodoroBird at any time, with or without cause, 
+              We may terminate or suspend your access to Fokis at any time, with or without cause, 
               with or without notice. You may also terminate your use of the App at any time by deleting 
               the App from your device.
             </p>
@@ -150,7 +150,7 @@ const TermsPage = () => {
             <h2>Governing Law</h2>
             <p>
               These Terms shall be governed by and construed in accordance with the laws of the jurisdiction 
-              where PomodoroBird is operated, without regard to conflict of law principles.
+              where Fokis is operated, without regard to conflict of law principles.
             </p>
           </section>
 
