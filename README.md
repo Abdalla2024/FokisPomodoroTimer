@@ -52,57 +52,6 @@ The build artifacts will be stored in the `dist/` directory.
 npm run preview
 ```
 
-## Project Structure
-
-```
-src/
-├── components/          # React components
-│   ├── Header.jsx      # Navigation header
-│   ├── Hero.jsx        # Hero section
-│   ├── Features.jsx    # App features showcase
-│   ├── BirdCollection.jsx # Bird collection gallery
-│   ├── Screenshots.jsx # App screenshots
-│   ├── Download.jsx    # Download section
-│   └── Footer.jsx      # Footer
-├── App.jsx             # Main app component
-├── main.jsx           # Entry point
-└── index.css          # Global styles
-```
-
-## Customization
-
-### Colors
-
-The website uses a custom color palette defined in `tailwind.config.js`:
-
-- `bird-blue`: #4F9CF9
-- `bird-green`: #00B884
-- `bird-orange`: #FF8A3D
-- `bird-purple`: #8B5CF6
-
-### Content
-
-Update the content in each component file to match your app's specific features and information.
-
-## Deployment
-
-This site can be deployed to any static hosting service:
-
-- **Vercel**: Connect your GitHub repo for automatic deployments
-- **Netlify**: Drag and drop the `dist/` folder
-- **GitHub Pages**: Use GitHub Actions for automated deployment
-
-## About PomodoroBird
-
-PomodoroBird is an iOS app that combines the proven Pomodoro Technique with delightful gamification. Users complete focus sessions to collect beautiful birds, making productivity both effective and enjoyable.
-
-**App Features:**
-- Focus Timer with customizable intervals
-- Task Manager for daily planning
-- Analytics to track productivity patterns
-- Settings for personalization
-- Bird Collection with 50+ species
-
 ## License
 
 This project is licensed under the MIT License.
