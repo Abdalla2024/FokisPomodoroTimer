@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import pomodoroIcon from '/images/pomodoroicon.png?url'
+import pomodoroIcon from '../pomodoroicon.png?url'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()

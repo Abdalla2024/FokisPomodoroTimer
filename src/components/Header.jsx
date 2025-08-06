@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import pomodoroIcon from '/images/pomodoroicon.png?url'
+import pomodoroIcon from '../pomodoroicon.png?url'
 
 const Header = ({ currentPath }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
