@@ -1,3 +1,5 @@
+import collectionImage from '/images/collection.png?url'
+
 const Download = () => {
   return (
     <section id="download" className="download">
@@ -56,28 +58,16 @@ const Download = () => {
           
           <div className="download-image">
             <div className="phone-mockup-large">
-              <div className="phone-screen-large">
-                <div className="app-preview-large">
-                  <div className="large-app-content">
-                    <h3>PomodoroBird</h3>
-                    <div className="summary-stats">
-                      <div className="stat-card">
-                        <span className="stat-label">Today's Focus</span>
-                        <span className="stat-value positive">2h 30m</span>
-                      </div>
-                      <div className="stat-card">
-                        <span className="stat-label">Sessions</span>
-                        <span className="stat-value">14</span>
-                      </div>
-                      <div className="stat-card">
-                        <span className="stat-label">Tasks</span>
-                        <span className="stat-value">8/12</span>
-                      </div>
-                    </div>
-                    <div className="chart-placeholder"></div>
-                  </div>
-                </div>
-              </div>
+              <img 
+                src={collectionImage} 
+                alt="PomodoroBird Bird Collection"
+                style={{ 
+                  width: '100%', 
+                  height: '100%', 
+                  objectFit: 'cover',
+                  borderRadius: '20px'
+                }}
+              />
             </div>
           </div>
         </div>

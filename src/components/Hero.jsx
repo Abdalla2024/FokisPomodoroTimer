@@ -1,3 +1,5 @@
+import timerImage from '/images/timer.PNG?url'
+
 const Hero = () => {
   const scrollToDownload = () => {
     const element = document.getElementById('download')
@@ -40,23 +42,11 @@ const Hero = () => {
         <div className="hero-image">
           <div className="phone-mockup">
             <div className="phone-screen">
-              <div className="mock-status-bar">
-                <span>9:41</span>
-                <span>📶 🔋</span>
-              </div>
-              <div className="mock-app-content">
-                <div className="mock-app-icon">
-                  <span>🐦</span>
-                </div>
-                <h3>PomodoroBird</h3>
-                <p>Focus Timer</p>
-                <div className="mock-timer">
-                  <span>25:00</span>
-                </div>
-                <div className="mock-button">
-                  Start Focus
-                </div>
-              </div>
+              <img 
+                src={timerImage} 
+                alt="PomodoroBird Timer Interface"
+                className="hero-screenshot"
+              />
             </div>
           </div>
         </div>
