@@ -101,6 +101,21 @@ body {
     color: #4F9CF9;
 }
 
+.nav-menu a {
+    background: none;
+    border: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    color: #4F9CF9;
+}
+
 .hamburger {
     display: none;
     flex-direction: column;
@@ -779,6 +794,21 @@ body {
 }
 
 .footer-section button:hover {
+    color: white;
+}
+
+.footer-section a {
+    background: none;
+    border: none;
+    color: #9ca3af;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-align: left;
+    padding: 0;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
     color: white;
 }
 

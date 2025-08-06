@@ -1,15 +1,17 @@
 import { useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 
-const Header = ({ setCurrentPage, currentPage }) => {
+const Header = ({ currentPath }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const navigate = useNavigate()
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
 
   const scrollToSection = (sectionId) => {
-    if (currentPage !== 'home') {
-      setCurrentPage('home')
+    if (currentPath !== '/') {
+      navigate('/')
       setTimeout(() => {
         const element = document.getElementById(sectionId)
         if (element) {
@@ -28,15 +30,12 @@ const Header = ({ setCurrentPage, currentPage }) => {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <div 
-          className="nav-logo"
-          onClick={() => setCurrentPage('home')}
-        >
+        <Link to="/" className="nav-logo">
           <div className="nav-logo-icon">
             <span>🐦</span>
           </div>
           <h2>PomodoroBird</h2>
-        </div>
+        </Link>
         
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
           <li>
@@ -55,14 +54,14 @@ const Header = ({ setCurrentPage, currentPage }) => {
             </button>
           </li>
           <li>
-            <button onClick={() => setCurrentPage('privacy')}>
+            <Link to="/privacy" onClick={() => setIsMenuOpen(false)}>
               Privacy
-            </button>
+            </Link>
           </li>
           <li>
-            <button onClick={() => setCurrentPage('terms')}>
+            <Link to="/terms" onClick={() => setIsMenuOpen(false)}>
               Terms
-            </button>
+            </Link>
           </li>
         </ul>
         

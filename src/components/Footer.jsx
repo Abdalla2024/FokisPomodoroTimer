@@ -1,4 +1,6 @@
-const Footer = ({ setCurrentPage }) => {
+import { Link } from 'react-router-dom'
+
+const Footer = () => {
   const currentYear = new Date().getFullYear()
 
   return (
@@ -51,14 +53,14 @@ const Footer = ({ setCurrentPage }) => {
             <h4>Support</h4>
             <ul>
               <li>
-                <button onClick={() => setCurrentPage('privacy')}>
+                <Link to="/privacy">
                   Privacy Policy
-                </button>
+                </Link>
               </li>
               <li>
-                <button onClick={() => setCurrentPage('terms')}>
+                <Link to="/terms">
                   Terms of Service
-                </button>
+                </Link>
               </li>
             </ul>
           </div>
