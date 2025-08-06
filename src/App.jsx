@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import './styles.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -44,7 +44,7 @@ function AppContent() {
 
 function App() {
   return (
-    <Router basename="/FokisPomodoroTimer">
+    <Router>
       <AppContent />
     </Router>
   )
