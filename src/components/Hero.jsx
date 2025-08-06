@@ -22,10 +22,10 @@ const Hero = () => {
           <h1 className="hero-title">
             Focus and Achieve <span className="gradient-text">More</span>
           </h1>
-          <p className="hero-description">
-            PomodoroBird is the ultimate iOS productivity app that helps you focus better, 
-            manage tasks efficiently, and track your progress with beautiful analytics.
-          </p>
+                      <p className="hero-description">
+              Fokis is the ultimate iOS productivity app that helps you focus better, 
+              manage tasks efficiently, and track your progress with beautiful analytics.
+            </p>
           <div className="hero-buttons">
             <button onClick={scrollToDownload} className="btn btn-primary">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -44,7 +44,7 @@ const Hero = () => {
             <div className="phone-screen">
               <img 
                 src={timerImage} 
-                alt="PomodoroBird Timer Interface"
+                alt="Fokis Timer Interface"
                 className="hero-screenshot"
               />
             </div>

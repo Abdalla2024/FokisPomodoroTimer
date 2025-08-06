@@ -1,4 +1,10 @@
+import { useEffect } from 'react'
+
 const TermsPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <section className="privacy-policy">
       <div className="container">

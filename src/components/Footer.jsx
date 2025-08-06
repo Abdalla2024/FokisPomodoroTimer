@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="footer-brand-icon">
                 <span>🐦</span>
               </div>
-              <h3>PomodoroBird</h3>
+              <h3>Fokis</h3>
             </div>
             <p>
               Your trusted companion for productivity and focus management.
@@ -67,7 +67,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>© {currentYear} PomodoroBird. All rights reserved.</p>
+          <p>© {currentYear} Fokis. All rights reserved.</p>
         </div>
       </div>
     </footer>

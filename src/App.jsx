@@ -11,6 +11,10 @@ import PrivacyPage from './components/PrivacyPage'
 import TermsPage from './components/TermsPage'
 
 function HomePage() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <main>
       <Hero />

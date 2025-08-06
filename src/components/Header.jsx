@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import pomodoroIcon from '/images/pomodoroicon.png?url'
 
 const Header = ({ currentPath }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -27,15 +28,25 @@ const Header = ({ currentPath }) => {
     setIsMenuOpen(false)
   }
 
+  const handleLogoClick = (e) => {
+    e.preventDefault()
+    if (currentPath !== '/') {
+      navigate('/')
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    }
+    setIsMenuOpen(false)
+  }
+
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <Link to="/" className="nav-logo">
+        <a href="/" className="nav-logo" onClick={handleLogoClick}>
           <div className="nav-logo-icon">
-            <span>🐦</span>
+            <img src={pomodoroIcon} alt="Fokis Icon" style={{ width: '32px', height: '32px', borderRadius: '8px' }} />
           </div>
           <h2>Fokis</h2>
-        </Link>
+        </a>
         
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
           <li>

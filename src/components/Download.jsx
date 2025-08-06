@@ -9,7 +9,7 @@ const Download = () => {
             <h2>Ready to Focus and Achieve More?</h2>
             <p>
               Join thousands of users who have already transformed their productivity 
-              habits with PomodoroBird. Download now and start your journey to better focus.
+              habits with Fokis. Download now and start your journey to better focus.
             </p>
             
             <div className="download-buttons">
@@ -60,7 +60,7 @@ const Download = () => {
             <div className="phone-mockup-large">
               <img 
                 src={collectionImage} 
-                alt="PomodoroBird Bird Collection"
+                alt="Fokis Bird Collection"
                 style={{ 
                   width: '100%', 
                   height: '100%', 

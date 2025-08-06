@@ -25,8 +25,8 @@ const Screenshots = () => {
     <section id="screenshots" className="screenshots">
       <div className="container">
         <div className="section-header">
-          <h2 style={{ color: 'white' }}>See PomodoroBird in Action</h2>
-          <p style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
+          <h2>See Fokis in Action</h2>
+          <p>
             Beautiful, intuitive design that makes managing your productivity a pleasure
           </p>
         </div>
