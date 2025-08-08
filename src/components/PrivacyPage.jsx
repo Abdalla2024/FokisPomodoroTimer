@@ -10,7 +10,7 @@ const PrivacyPage = () => {
       <div className="container">
         <div className="privacy-header">
           <h1>Privacy Policy</h1>
-          <p className="last-updated">Last updated: January 2025</p>
+          <p className="last-updated">Last updated: August 2025</p>
         </div>
 
         <div className="privacy-content">
@@ -31,121 +31,89 @@ const PrivacyPage = () => {
 
           <section className="privacy-section">
             <h2>Information We Collect</h2>
+            <p>
+              We do not collect, transmit, or store your personal data on our
+              servers. All app data — including your focus sessions, tasks,
+              settings, and bird collection progress — is stored locally on your
+              device and remains under your control.
+            </p>
 
-            <h3>Personal Information</h3>
-            <p>We may collect the following types of personal information:</p>
-            <ul>
-              <li>
-                <strong>Account Information:</strong> Name, email address (if
-                you choose to create an account)
-              </li>
-              <li>
-                <strong>Productivity Data:</strong> Focus session durations,
-                task completion status, productivity statistics
-              </li>
-              <li>
-                <strong>Device Information:</strong> Device type, operating
-                system version, unique device identifiers
-              </li>
-              <li>
-                <strong>Usage Data:</strong> How you interact with the App,
-                features used, and app performance data
-              </li>
-            </ul>
-
-            <h3>Automatically Collected Information</h3>
-            <ul>
-              <li>App usage statistics and crash reports</li>
-              <li>Device performance and diagnostic data</li>
-              <li>
-                IP address and general location (country/region level only)
-              </li>
-            </ul>
+            <h3>Crash diagnostics (optional)</h3>
+            <p>
+              If you have opted in at the iOS system level to share crash
+              diagnostics with developers, Apple may provide us anonymized crash
+              logs to help improve stability. These logs do not contain
+              information that directly identifies you and are controlled by
+              your device settings (Settings → Privacy & Security → Analytics &
+              Improvements).
+            </p>
           </section>
 
           <section className="privacy-section">
             <h2>How We Use Your Information</h2>
-            <p>We use the collected information for the following purposes:</p>
-            <ul>
-              <li>
-                <strong>App Functionality:</strong> To provide and maintain the
-                Fokis app features, including timer functionality, task
-                management, and bird collection system
-              </li>
-              <li>
-                <strong>Personalization:</strong> To customize your experience
-                and provide personalized productivity insights
-              </li>
-              <li>
-                <strong>Analytics:</strong> To analyze app usage patterns and
-                improve our services
-              </li>
-              <li>
-                <strong>Communication:</strong> To respond to your inquiries
-                and provide customer support
-              </li>
-            </ul>
+            <p>
+              Fokis processes your data entirely on-device to power core
+              features such as timers, tasks, stats, and the bird collection.
+              We do not use third‑party analytics or advertising SDKs, and we do
+              not send your data to external servers.
+            </p>
           </section>
 
           <section className="privacy-section">
             <h2>Data Storage and Security</h2>
             <p>
-              Your data is primarily stored locally on your device to ensure
-              maximum privacy and security. We implement appropriate security
-              measures to protect your information:
+              Your data is stored locally on your device. We do not operate a
+              backend for Fokis, and we do not offer developer‑operated cloud
+              syncing. Your app data may be included in your iCloud device
+              backups, which are encrypted and managed by Apple. Deleting the
+              app from your device will remove the data stored by Fokis locally;
+              backups can be managed from iOS Settings.
             </p>
             <ul>
-              <li>Local data storage with device encryption</li>
-              <li>Secure data transmission when syncing (if enabled)</li>
-              <li>Regular security updates and vulnerability assessments</li>
-              <li>Access controls and authentication measures</li>
+              <li>Local data storage protected by iOS device security</li>
+              <li>No developer‑operated cloud sync or transmission to our servers</li>
+              <li>iCloud device backups are optional and controlled by Apple and your iOS settings</li>
             </ul>
+          </section>
+
+          <section className="privacy-section">
+            <h2>In‑App Purchases</h2>
+            <p>
+              If Fokis offers in‑app purchases, payments are processed by Apple
+              via StoreKit and the App Store. We do not receive or store your
+              full payment information. Apple may provide us with anonymized
+              sales and transaction reports to help us understand purchases and
+              refunds at an aggregate level.
+            </p>
           </section>
 
           <section className="privacy-section">
             <h2>Data Sharing and Third Parties</h2>
             <p>
-              We do not sell, trade, or otherwise transfer your personal
-              information to third parties without your explicit consent,
-              except in the following limited circumstances:
+              We do not sell or share your personal data. Fokis does not
+              integrate third‑party advertising, analytics, or tracking SDKs.
+              Aside from optional Apple-provided crash diagnostics (controlled
+              by your iOS settings), no data leaves your device.
             </p>
-            <ul>
-              <li>
-                <strong>Service Providers:</strong> We may share data with
-                trusted third-party service providers who assist us in
-                operating our app (e.g., analytics, crash reporting)
-              </li>
-              <li>
-                <strong>Legal Requirements:</strong> We may disclose information
-                if required by law or to protect our rights and safety
-              </li>
-              <li>
-                <strong>Business Transfers:</strong> In the event of a merger,
-                acquisition, or sale of assets, user information may be
-                transferred as part of the business transaction
-              </li>
-            </ul>
           </section>
 
           <section className="privacy-section">
             <h2>Your Rights and Choices</h2>
-            <p>You have the following rights regarding your personal information:</p>
+            <p>You are in control of your data on your device:</p>
             <ul>
               <li>
-                <strong>Access:</strong> You can access and review your personal
-                data stored in the app
+                <strong>Access:</strong> View and manage your data directly in
+                the app.
               </li>
               <li>
-                <strong>Deletion:</strong> You can delete your account and all
-                associated data at any time
+                <strong>Deletion:</strong> You can delete the app to remove all
+                locally stored data. If an in‑app reset option is available, you
+                can use it to clear data without uninstalling.
               </li>
               <li>
-                <strong>Export:</strong> You can export your data in a
-                machine-readable format
-              </li>
-              <li>
-                <strong>Opt-out:</strong> You can opt out of certain data
-                collection features in the app settings
+                <strong>Diagnostics Opt‑In:</strong> You can disable iOS
+                “Share With App Developers” to stop sharing anonymized crash
+                diagnostics.
               </li>
             </ul>
           </section>

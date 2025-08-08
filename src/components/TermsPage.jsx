@@ -10,7 +10,7 @@ const TermsPage = () => {
       <div className="container">
         <div className="privacy-header">
           <h1>Terms of Service</h1>
-          <p className="last-updated">Last updated: January 2025</p>
+          <p className="last-updated">Last updated: August 2025</p>
         </div>
 
         <div className="privacy-content">
@@ -47,7 +47,6 @@ const TermsPage = () => {
             <ul>
               <li>Use the App for lawful purposes only</li>
               <li>Not attempt to reverse engineer, decompile, or modify the App</li>
-              <li>Not share your account credentials with others</li>
               <li>Not use the App to violate any applicable laws or regulations</li>
               <li>Respect the intellectual property rights of the App and its content</li>
               <li>Not interfere with or disrupt the App's functionality</li>
@@ -55,33 +54,51 @@ const TermsPage = () => {
           </section>
 
           <section className="privacy-section">
-            <h2>Account and Data</h2>
+            <h2>Data and Backups</h2>
             <p>
-              You are responsible for maintaining the confidentiality of your account information and for all activities 
-              that occur under your account. You agree to:
+              Fokis does not require a user account. Your app data (e.g., tasks, focus sessions, settings, and collection
+              progress) is stored locally on your device. We do not operate a backend service for syncing your data.
             </p>
             <ul>
-              <li>Provide accurate and complete information when creating an account</li>
-              <li>Keep your account credentials secure</li>
-              <li>Notify us immediately of any unauthorized use of your account</li>
-              <li>Accept responsibility for all activities under your account</li>
+              <li>You are responsible for maintaining the security of your device.</li>
+              <li>Your app data may be included in iCloud device backups managed by Apple, depending on your iOS settings.</li>
+              <li>Deleting the App removes locally stored data; backups can be managed from iOS Settings.</li>
             </ul>
           </section>
 
           <section className="privacy-section">
             <h2>Service Availability</h2>
             <p>
-              While we strive to provide consistent and reliable service, we cannot guarantee that Fokis will be 
-              available at all times. We may need to suspend or discontinue service for:
+              While we strive to provide a consistent and reliable experience, we cannot guarantee that Fokis or specific
+              features will be available at all times. Availability may be affected by factors such as:
             </p>
             <ul>
-              <li>Scheduled maintenance and updates</li>
-              <li>Technical issues or system failures</li>
-              <li>Security concerns or vulnerabilities</li>
-              <li>Other operational reasons</li>
+              <li>Operating system updates or device compatibility changes</li>
+              <li>App updates, maintenance, or bug fixes</li>
+              <li>App Store policy or regional availability</li>
+              <li>Security concerns or other operational reasons</li>
             </ul>
             <p>
-              We will make reasonable efforts to notify users of any planned service interruptions.
+              We may modify, suspend, or discontinue features at any time. Where practical, we will note material changes
+              in the App or release notes.
+            </p>
+          </section>
+
+          <section className="privacy-section">
+            <h2>In‑App Purchases</h2>
+            <p>
+              If Fokis offers in‑app purchases or subscriptions, payments are processed by Apple via StoreKit and the
+              App Store. Prices and availability may change. Purchases, refunds, and billing issues are handled by Apple
+              under the App Store terms and policies.
+            </p>
+          </section>
+
+          <section className="privacy-section">
+            <h2>Third‑Party Services</h2>
+            <p>
+              Fokis does not include third‑party advertising or analytics SDKs. If you have opted in at the iOS system
+              level to “Share With App Developers,” Apple may provide us anonymized crash diagnostics to help improve
+              stability. You can control this in iOS Settings → Privacy & Security → Analytics & Improvements.
             </p>
           </section>
 
