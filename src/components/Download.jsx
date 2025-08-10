@@ -14,7 +14,7 @@ const Download = () => {
             
             <div className="download-buttons">
               <a 
-                href="https://github.com/mabdel8/PomodoroBird" 
+                href="https://apps.apple.com/us/app/pomodoro-timer-fokis/id6749666223" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="app-store-btn"
